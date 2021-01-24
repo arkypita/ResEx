@@ -1,11 +1,14 @@
+#define MyAppName "ResEx"
+#define MyAppVersion "1.1.0.0"
+#define MyAppVersionName ""
+
 [Setup]
-OutputBaseFilename={#OutputFileName}
+OutputBaseFilename=install
 VersionInfoCompany=Dimitris Papadimitriou
-AppName={#ProductName}
-AppVerName={#ProductName} {#VersionShort}
+AppName={#MyAppName}
+AppVerName={#MyAppName} {#MyAppVersion}
 ShowLanguageDialog=yes
-OutputDir=
-SourceDir=.\Executable\bin\{#Configuration}
+SourceDir=.\Executable\bin\release
 DefaultDirName={pf}\ResEx
 DisableProgramGroupPage=true
 UsePreviousGroup=true
@@ -17,14 +20,14 @@ AppSupportURL=http://resex.codeplex.com/Thread/List.aspx
 AppUpdatesURL=http://resex.codeplex.com
 UninstallDisplayIcon={app}\ResEx.exe
 AppID={{4C16D937-263B-4BD7-9375-0F0858E48903}
-VersionInfoVersion={#Version}
+VersionInfoVersion={#MyAppVersion}
 VersionInfoDescription=ResEx
 InternalCompressLevel=max
 ArchitecturesInstallIn64BitMode=x64
 [Files]
 DestDir: {app}; Source: ResEx.exe; Flags: replacesameversion
 DestDir: {app}; Source: ResEx.exe.config; Flags: replacesameversion
-DestDir: {app}; Source: ..\Release\ResEx.chm; Flags: replacesameversion
+DestDir: {app}; Source: ..\..\..\ResEx.chm; Flags: replacesameversion
 DestDir: {app}; Source: ResEx.Common.dll; Flags: replacesameversion
 DestDir: {app}; Source: ResEx.Core.dll; Flags: replacesameversion
 DestDir: {app}; Source: ResEx.StandardAdapters.dll; Flags: replacesameversion
