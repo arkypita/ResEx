@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD9B4E9A-0289-4A0E-995B-90635C2E961B}"
 	ProjectSection(SolutionItems) = preProject
 		Build.cmd = Build.cmd
@@ -35,9 +37,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationPlugin", "TranslationPlugin\TranslationPlugin.csproj", "{66365689-7DFF-403C-A4A6-D9E56EBAC941}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = ResEx.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -81,8 +80,14 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0025754-6F3C-4652-835E-E5E40FC575DC} = {E7FFF580-7507-4CFE-BDAD-BB903D41442D}
-		{66365689-7DFF-403C-A4A6-D9E56EBAC941} = {E7FFF580-7507-4CFE-BDAD-BB903D41442D}
 		{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26} = {C95A7787-E7AD-4CA1-B720-AF519A6F510C}
 		{D4740BF3-53FF-48E2-9430-451580D3D2ED} = {62AA2F61-2512-4D90-A836-30088C815533}
+		{66365689-7DFF-403C-A4A6-D9E56EBAC941} = {E7FFF580-7507-4CFE-BDAD-BB903D41442D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F0AE33-918E-4C2D-BA7B-5B97A7D3E507}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ResEx.vsmdi
 	EndGlobalSection
 EndGlobal
