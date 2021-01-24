@@ -31,33 +31,36 @@ namespace ResEx
 
         public static void CheckForUpdates(bool silent)
         {
-            try
-            {
-                // if updates exist
-                var checkResult = UpdateChecker.Check(UpdateCheckURL, true, ReleaseDate);
-                if (checkResult != UpdateChecker.UpdateCheckResult.Nothing)
-                {
-                    string message = string.Format(My.Resources.Local.NewVersionAvailable, Tools.GetAssemblyProduct());
-                    if (MessageBox.Show(message, Tools.GetAssemblyProduct(), MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
-                    {
-                        OpenURL(ResExHomePage);
-                    }
-                }
-                else
-                {
-                    if (!silent)
-                    {
-                        MessageBox.Show(My.Resources.Local.YouHaveTheLatestVersion, Tools.GetAssemblyProduct(), MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                }
-            }
-            catch (Exception)
-            {
-                if (!silent)
-                {
-                    throw;
-                }
-            }
+
+			if (!silent)
+				Main.OpenURL("https://github.com/arkypita/ResEx/releases/");
+            //try
+            //{
+            //    // if updates exist
+            //    var checkResult = UpdateChecker.Check(UpdateCheckURL, true, ReleaseDate);
+            //    if (checkResult != UpdateChecker.UpdateCheckResult.Nothing)
+            //    {
+            //        string message = string.Format(My.Resources.Local.NewVersionAvailable, Tools.GetAssemblyProduct());
+            //        if (MessageBox.Show(message, Tools.GetAssemblyProduct(), MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+            //        {
+            //            OpenURL(ResExHomePage);
+            //        }
+            //    }
+            //    else
+            //    {
+            //        if (!silent)
+            //        {
+            //            MessageBox.Show(My.Resources.Local.YouHaveTheLatestVersion, Tools.GetAssemblyProduct(), MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //        }
+            //    }
+            //}
+            //catch (Exception)
+            //{
+            //    if (!silent)
+            //    {
+            //        throw;
+            //    }
+            //}
         }
 
         public static Version GetAssemblyVersion()

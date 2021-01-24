@@ -148,7 +148,7 @@
     <value>TreeView1</value>
   </data>
   <data name="&gt;&gt;TreeView1.Type" xml:space="preserve">
-    <value>ResEx.Win.TreeNavigator, ResEx.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>ResEx.Win.TreeNavigator, ResEx.Win, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;TreeView1.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel1</value>
@@ -190,7 +190,7 @@
     <value>CustomDataGrid1</value>
   </data>
   <data name="&gt;&gt;CustomDataGrid1.Type" xml:space="preserve">
-    <value>ResEx.CustomDataGrid, ResEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>ResEx.CustomDataGrid, ResEx, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;CustomDataGrid1.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel2</value>
@@ -214,7 +214,7 @@
     <value>NavigationBar1</value>
   </data>
   <data name="&gt;&gt;NavigationBar1.Type" xml:space="preserve">
-    <value>ResEx.NavigationBar, ResEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>ResEx.NavigationBar, ResEx, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;NavigationBar1.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel2</value>
@@ -262,71 +262,47 @@
     <value>False</value>
   </metadata>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 6</value>
+    <value>151, 6</value>
   </data>
   <metadata name="ToolStripMenuItem1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 6</value>
+    <value>204, 6</value>
   </data>
   <metadata name="ToolStripMenuItem2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="ToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 6</value>
+    <value>204, 6</value>
   </data>
   <metadata name="ToolStripSeparator5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 6</value>
+    <value>206, 6</value>
   </data>
   <metadata name="ToolStripMenuItem3.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="ToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 6</value>
+    <value>206, 6</value>
   </data>
   <metadata name="ToolStripMenuItem6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="ToolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
+    <value>177, 6</value>
   </data>
   <metadata name="ToolStripMenuItem4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="ToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 6</value>
+    <value>177, 6</value>
   </data>
   <metadata name="MainToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 24</value>
   </metadata>
-  <data name="MainToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="MainToolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>678, 25</value>
-  </data>
-  <data name="MainToolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="MainToolStrip.Text" xml:space="preserve">
-    <value>Main Toolbar</value>
-  </data>
-  <data name="&gt;&gt;MainToolStrip.Name" xml:space="preserve">
-    <value>MainToolStrip</value>
-  </data>
-  <data name="&gt;&gt;MainToolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainToolStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MainToolStrip.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="OpenToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -411,6 +387,30 @@
   <data name="PendingForReviewToolStripLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 22</value>
   </data>
+  <data name="MainToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="MainToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>678, 25</value>
+  </data>
+  <data name="MainToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MainToolStrip.Text" xml:space="preserve">
+    <value>Main Toolbar</value>
+  </data>
+  <data name="&gt;&gt;MainToolStrip.Name" xml:space="preserve">
+    <value>MainToolStrip</value>
+  </data>
+  <data name="&gt;&gt;MainToolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainToolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainToolStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>301, 17</value>
   </metadata>
@@ -423,6 +423,21 @@
   <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 516</value>
   </metadata>
+  <data name="ItemsToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="ItemsToolStripStatusLabel.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="ItemsToolStripStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="WordCountToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="WordCountToolStripStatusLabel.Text" xml:space="preserve">
+    <value>WordCount</value>
+  </data>
   <data name="StatusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 516</value>
   </data>
@@ -447,24 +462,186 @@
   <data name="&gt;&gt;StatusStrip1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="ItemsToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 17</value>
-  </data>
-  <data name="ItemsToolStripStatusLabel.Text" xml:space="preserve">
-    <value>Items</value>
-  </data>
-  <data name="ItemsToolStripStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="WordCountToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
-  </data>
-  <data name="WordCountToolStripStatusLabel.Text" xml:space="preserve">
-    <value>WordCount</value>
-  </data>
   <metadata name="TheMainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
+  <data name="OpenToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>CTRL+O</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="SaveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>CTRL+S</value>
+  </data>
+  <data name="SaveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="SaveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="RecentItemsToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 6</value>
+  </data>
+  <data name="RecentItemsToolStripSeparator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="FileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="BaseCommentToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>CTRL+B</value>
+  </data>
+  <data name="BaseCommentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="BaseCommentToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Base Comment</value>
+  </data>
+  <data name="LocalCommentToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>CTRL+L</value>
+  </data>
+  <data name="LocalCommentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="LocalCommentToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Local Comment</value>
+  </data>
+  <data name="TreeViewToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>CTRL+T</value>
+  </data>
+  <data name="TreeViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="TreeViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Tree View</value>
+  </data>
+  <data name="IncreaseFontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="IncreaseFontToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Increase Font</value>
+  </data>
+  <data name="DecreaseFontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="DecreaseFontToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Decrease Font</value>
+  </data>
+  <data name="HideTranslatedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="HideTranslatedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hide T&amp;ranslated</value>
+  </data>
+  <data name="HideLockedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="HideLockedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hide Locke&amp;d</value>
+  </data>
+  <data name="HideVSFormItemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="HideVSFormItemsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hide VS &amp;Form items</value>
+  </data>
+  <data name="HideEmptyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="HideEmptyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hide &amp;Empty items</value>
+  </data>
+  <data name="ViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="ViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="AddCultureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="AddCultureToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Add Culture</value>
+  </data>
+  <data name="RemoveCultureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="RemoveCultureToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Remove Culture</value>
+  </data>
+  <data name="CopyBaseValueToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>CTRL+Y</value>
+  </data>
+  <data name="CopyBaseValueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="CopyBaseValueToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cop&amp;y Base Value</value>
+  </data>
+  <data name="ShowWorkingFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="ShowWorkingFolderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show &amp;Working Folder</value>
+  </data>
+  <data name="ToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 6</value>
+  </data>
+  <data name="ToolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="ToolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="HelpContentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="HelpContentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Contents</value>
+  </data>
+  <data name="ResExHomeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ResExHomeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;ResEx Home</value>
+  </data>
+  <data name="DiscussToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="DiscussToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Support</value>
+  </data>
+  <data name="CheckForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="CheckForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Check for Updates</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
   <data name="TheMainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -488,183 +665,6 @@
   </data>
   <data name="&gt;&gt;TheMainMenuStrip.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="FileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="OpenToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
-  </data>
-  <data name="OpenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="OpenToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Open</value>
-  </data>
-  <data name="SaveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="SaveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="SaveToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Save</value>
-  </data>
-  <data name="RecentItemsToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 6</value>
-  </data>
-  <data name="RecentItemsToolStripSeparator.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
-    <value>E&amp;xit</value>
-  </data>
-  <data name="ViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="ViewToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;View</value>
-  </data>
-  <data name="BaseCommentToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+B</value>
-  </data>
-  <data name="BaseCommentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="BaseCommentToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Base Comment</value>
-  </data>
-  <data name="LocalCommentToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+L</value>
-  </data>
-  <data name="LocalCommentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="LocalCommentToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Local Comment</value>
-  </data>
-  <data name="TreeViewToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+T</value>
-  </data>
-  <data name="TreeViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="TreeViewToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Tree View</value>
-  </data>
-  <data name="IncreaseFontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="IncreaseFontToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Increase Font</value>
-  </data>
-  <data name="DecreaseFontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="DecreaseFontToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Decrease Font</value>
-  </data>
-  <data name="HideTranslatedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="HideTranslatedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hide T&amp;ranslated</value>
-  </data>
-  <data name="HideLockedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="HideLockedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hide Locke&amp;d</value>
-  </data>
-  <data name="HideVSFormItemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="HideVSFormItemsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hide VS &amp;Form items</value>
-  </data>
-  <data name="HideEmptyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="HideEmptyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hide &amp;Empty items</value>
-  </data>
-  <data name="ToolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="ToolsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Tools</value>
-  </data>
-  <data name="AddCultureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 22</value>
-  </data>
-  <data name="AddCultureToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Add Culture</value>
-  </data>
-  <data name="RemoveCultureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 22</value>
-  </data>
-  <data name="RemoveCultureToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Remove Culture</value>
-  </data>
-  <data name="CopyBaseValueToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Y</value>
-  </data>
-  <data name="CopyBaseValueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 22</value>
-  </data>
-  <data name="CopyBaseValueToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cop&amp;y Base Value</value>
-  </data>
-  <data name="ShowWorkingFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 22</value>
-  </data>
-  <data name="ShowWorkingFolderToolStripMenuItem.Text" xml:space="preserve">
-    <value>Show &amp;Working Folder</value>
-  </data>
-  <data name="ToolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 6</value>
-  </data>
-  <data name="HelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Help</value>
-  </data>
-  <data name="HelpContentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="HelpContentsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Contents</value>
-  </data>
-  <data name="ResExHomeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="ResExHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;ResEx Home</value>
-  </data>
-  <data name="DiscussToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="DiscussToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Support</value>
-  </data>
-  <data name="CheckForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="CheckForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Check for Updates</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;About</value>
   </data>
   <metadata name="RecentItemsManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>443, 17</value>
@@ -4775,7 +4775,7 @@
     <value>RecentItemsManager</value>
   </data>
   <data name="&gt;&gt;RecentItemsManager.Type" xml:space="preserve">
-    <value>ResEx.Win.RecentItemsManager, ResEx.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>ResEx.Win.RecentItemsManager, ResEx.Win, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;SearchDelayTimer.Name" xml:space="preserve">
     <value>SearchDelayTimer</value>

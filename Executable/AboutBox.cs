@@ -135,5 +135,10 @@ namespace ResEx
         {
             Main.OpenURL(Main.LicenseUrl);
         }
-    }
+
+		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			Main.OpenURL("https://github.com/arkypita/ResEx/");
+		}
+	}
 }
